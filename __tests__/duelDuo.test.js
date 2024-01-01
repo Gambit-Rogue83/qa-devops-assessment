@@ -12,7 +12,7 @@ afterEach(async () => {
 
 describe("Duel Duo tests", () => {
   test("page loads with title", async () => {
-    await driver.get("http://localhost:8000");
+    await driver.get("https://assessment-server-ya7p.onrender.com");
     await driver.wait(until.titleIs("Duel Duo"), 1000);
   });
 });
